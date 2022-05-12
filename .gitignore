@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/release/app-release.apk
+/app/obfuscation/mapping.txt
+/app/release/output-metadata.json
+/app/obfuscation/seeds.txt
+/app/obfuscation/unused.txt
