@@ -10,9 +10,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.ms.sampleandroidapp.databinding.ActivityMainBinding
-import com.microsoft.appcenter.AppCenter;
-import com.microsoft.appcenter.analytics.Analytics;
-import com.microsoft.appcenter.crashes.Crashes;
+import com.microsoft.appcenter.AppCenter
+import com.microsoft.appcenter.analytics.Analytics
+import com.microsoft.appcenter.crashes.Crashes
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,8 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppCenter.start(getApplication(), "{Your app secret here}",
-            Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "5de8d0e0-06bc-4ef2-90c1-b1604ff4deff",Analytics::class.java,Crashes::class.java)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
