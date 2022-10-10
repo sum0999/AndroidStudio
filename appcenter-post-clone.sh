@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -ex
 export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
 export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.xml.bind'
 SDKMANAGER=$ANDROID_HOME/tools/bin/sdkmanager
