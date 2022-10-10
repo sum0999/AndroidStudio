@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -ex
-env
-cp -R $APPCENTER_SOURCE_DIRECTORY/app/build/outputs/mapping $APPCENTER_OUTPUT_DIRECTORY/mapping
+ls /Users/runner/work/_temp
+cp -R /Users/runner/work/_temp $APPCENTER_OUTPUT_DIRECTORY
