@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 set -ex
-SDKMANAGER=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager
-echo y | $SDKMANAGER "ndk;21.4.7075529"
+rm -rf /var/lib/apt/lists/*
+wget -q https://download.qualibrate.com/qualibrate-cli
+sudo chmod +x qualibrate-cli
+ls -al
+./qualibrate-cli --help
